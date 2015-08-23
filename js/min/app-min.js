@@ -1,0 +1,1 @@
+$(document).ready(function(){$(function(){$("#includeNav").load("nav.html")})});
