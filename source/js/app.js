@@ -7,4 +7,8 @@ $(document).ready(function() {
   $(function() {
     $('#includeHeader').load('html-components/header.html');
   });
+  //matchHeight
+  $(function() {
+    $('.box-height').matchHeight();
+  });
 });

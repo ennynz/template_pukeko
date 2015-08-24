@@ -17,15 +17,17 @@ header {
   h1 {
     color: $color-light;
     font-family: $font-heading;
-    font-size: $font-large;
+    font-size: $font-big;
     text-align: center;
+    padding: 0 1rem;
   }
   p {
     font-family: $font-body;
     color: $color-light;
     font-size: $font-standard;
     text-align: center;
-    padding-top: 1.8rem;
+    padding: 1.8rem 1rem 0 1rem;
+    line-height: 1.5rem;
   }
 }
 .header-action {
@@ -34,7 +36,7 @@ header {
   bottom: 7rem;
 }
 .button-header-action {
-  @include center(9.5rem)
+  @include center(12.5rem)
 }
 .header-line {
   @include column(1/2, $gutter: 0);

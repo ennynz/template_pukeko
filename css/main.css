@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Arimo:400,700);
 .button-1 {
   font-family: "Arimo", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: .9rem .65rem .65rem .65rem;
   border: 0.18rem solid whitesmoke;
   border-radius: .5rem;
@@ -148,6 +148,53 @@
 /**
  * Apply a clearfix to an element.
  */
+.box {
+  *zoom: 1;
+  width: auto;
+  max-width: 1200px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .box:before, .box:after {
+    content: '';
+    display: table; }
+  .box:after {
+    clear: both; }
+
+.box-col-2 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 46.5%;
+  margin-left: 0%;
+  margin-right: 7.0%;
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+  .box-col-2:before, .box-col-2:after {
+    content: '';
+    display: table; }
+  .box-col-2:after {
+    clear: both; }
+  .box-col-2:last-child {
+    margin-right: 0%; }
+  @media (max-width: 979px) {
+    .box-col-2 {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem; }
+      .box-col-2:first-child {
+        margin-left: auto; }
+      .box-col-2:last-child {
+        margin-right: auto; } }
+
 header {
   background: -webkit-linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
   background: linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
@@ -168,13 +215,15 @@ header {
     color: whitesmoke;
     font-family: "Lobster", cursive;
     font-size: 4rem;
-    text-align: center; }
+    text-align: center;
+    padding: 0 1rem; }
   .header-title p {
     font-family: "Arimo", sans-serif;
     color: whitesmoke;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
-    padding-top: 1.8rem; }
+    padding: 1.8rem 1rem 0 1rem;
+    line-height: 1.5rem; }
 
 .header-action {
   position: absolute;
@@ -184,7 +233,7 @@ header {
 .button-header-action {
   *zoom: 1;
   width: auto;
-  max-width: 9.5rem;
+  max-width: 12.5rem;
   float: none;
   display: block;
   margin-right: auto;
@@ -217,5 +266,30 @@ header {
   .header-line:last-child {
     margin-right: 0%; }
 
+#one h2 {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  padding: 1rem 0 2rem 0; }
+
+.one-img-1 {
+  border-radius: .5rem;
+  margin-top: .5rem;
+  display: block;
+  width: 95%; }
+
+.one-content {
+  padding-left: 1.5rem; }
+
 body {
-  font-family: "Arimo", sans-serif; }
+  font-family: "Arimo", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #555555;
+  letter-spacing: .15rem;
+  background-color: whitesmoke; }
+
+.line-separator {
+  height: 0;
+  border-bottom: 0.12rem solid rgba(85, 85, 85, 0.5);
+  margin-bottom: 1.4rem;
+  width: 7.5rem; }

@@ -1,7 +1,7 @@
 //COLOR PALETTE
 $color-main: #0061D1;
 $color-secondary: #0092BA;
-$color-dark: #333333;
+$color-dark: #555555;
 $color-light: whitesmoke;
 $color-third: #FFEAB3;
 $color-fourth: #FFC47A;
@@ -10,10 +10,16 @@ $color-fourth: #FFC47A;
 @import url(http://fonts.googleapis.com/css?family=Lobster|Arimo:400,700);
 $font-heading: 'Lobster', cursive;
 $font-body: 'Arimo', sans-serif;
-$font-large: 4rem;
+$font-big: 4rem;
+$font-large: 2rem;
 $font-medium: 1.3rem;
-$font-standard: 1rem;
+$font-standard: 1.1rem;
 $font-small: .75rem;
+
+//SIZES
+$box-width: 1200px;
+$box-width-small: 980px;
+$width-small: max-width 979px;
 
 //BUTTONS
 .button-1 {

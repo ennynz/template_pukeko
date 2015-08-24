@@ -1,0 +1,12 @@
+.box {
+  @include center($box-width);
+}
+.box-col-2 {
+  @include column(1/2, $gutter: 7);
+  @include breakpoint($width-small) {
+    @include stack();
+    margin-top: 1rem;
+  }
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}

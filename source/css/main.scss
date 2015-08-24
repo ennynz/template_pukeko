@@ -1,8 +1,23 @@
 @import 'variables';
 @import 'jeet';
+// @include edit ();
 @import 'breakpoint/breakpoint';
+@import 'box';
 @import 'header';
+@import 'one';
+@import 'responsive';
 
 body {
   font-family: $font-body;
+  font-size: $font-standard;
+  line-height: 1.5rem;
+  color: $color-dark;
+  letter-spacing: .15rem;
+  background-color: $color-light;
+}
+.line-separator{
+  height:0;
+  border-bottom:.12rem solid rgba($color-dark, .5);
+  margin-bottom: 1.4rem;
+  width: 7.5rem;
 }
