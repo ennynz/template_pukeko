@@ -11,14 +11,16 @@ header {
   h1 {
     color: $color-light;
     font-family: $font-heading;
-    font-size: $font-big;
+    font-size: $font-xlarge;
     text-align: center;
     padding: 0 1rem;
+    line-height: normal;
+    @include breakpoint($small-max) {
+      font-size: $font-large;
+    }
   }
   p {
-    font-family: $font-body;
     color: $color-light;
-    font-size: $font-standard;
     text-align: center;
     padding: 1.8rem 1rem 0 1rem;
     line-height: 1.5rem;

@@ -3,14 +3,30 @@
     font-family: $font-heading;
     font-size: $font-large;
     padding: 1rem 0 2rem 0;
+    @include breakpoint($small-max) {
+      padding: 5rem 0 2rem 0;
+      text-align: center;
+    }
+  }
+  p {
+    @include breakpoint($small-max) {
+      text-align: center;
+    }
   }
 }
 .section-txt-img-plainbg-img-1 {
   border-radius: .5rem;
-  margin-top: .5rem;
+  margin-top: 2rem;
   display: block;
   width: 95%;
+  @include breakpoint($small-max) {
+    margin-left: 2.5%;
+    margin-top: .5rem;
+  }
 }
 .section-txt-img-plainbg-content {
   padding-left: 1.5rem;
+  @include breakpoint($small-max) {
+    padding-right: 1.5rem;
+  }
 }

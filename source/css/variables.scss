@@ -10,23 +10,26 @@ $color-fourth: #FFC47A;
 @import url(http://fonts.googleapis.com/css?family=Lobster|Arimo:400,700);
 $font-heading: 'Lobster', cursive;
 $font-body: 'Arimo', sans-serif;
-$font-big: 4rem;
+$font-xlarge: 4rem;
 $font-large: 2rem;
 $font-medium: 1.3rem;
-$font-standard: 1.1rem;
-$font-small: .75rem;
+$font-small: 1.1rem;
+$font-xsmall: .75rem;
 
 //SIZES
-$xlarge: max-width 1680px;
-$large:  max-width 1280px;
-$medium: max-width 980px;
-$small:  max-width 736px;
-$xsmall: max-width 480px;
+$xlarge: 1680px;
+$large: 1280px;
+$medium: 980px;
+$small: 736px;
+$xsmall: 480px;
+$xlarge-max: max-width 1680px;
+$large-max: max-width 1280px;
+$medium-max: max-width 980px;
+$small-max: max-width 736px;
+$xsmall-max: max-width 480px;
 
 //BUTTONS
 .button-1 {
-  font-family: $font-body;
-  font-size: $font-standard;
   padding: .9rem .65rem .65rem .65rem;
   border: .18rem solid $color-light;
   border-radius: .5rem;

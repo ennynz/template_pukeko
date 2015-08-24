@@ -5,7 +5,7 @@
   @include column(1/2, $gutter: 7);
   margin-top: 6rem;
   margin-bottom: 6rem;
-  @include breakpoint($small) {
+  @include breakpoint($small-max) {
     @include stack();
     margin-top: 1rem;
   }

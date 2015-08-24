@@ -1,7 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Arimo:400,700);
 .button-1 {
-  font-family: "Arimo", sans-serif;
-  font-size: 1.1rem;
   padding: .9rem .65rem .65rem .65rem;
   border: 0.18rem solid whitesmoke;
   border-radius: .5rem;
@@ -151,7 +149,7 @@
 .box {
   *zoom: 1;
   width: auto;
-  max-width: max-width 1280px;
+  max-width: 1280px;
   float: none;
   display: block;
   margin-right: auto;
@@ -211,11 +209,13 @@ header {
     font-family: "Lobster", cursive;
     font-size: 4rem;
     text-align: center;
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    line-height: normal; }
+    @media (max-width: 736px) {
+      .header-title h1 {
+        font-size: 2rem; } }
   .header-title p {
-    font-family: "Arimo", sans-serif;
     color: whitesmoke;
-    font-size: 1.1rem;
     text-align: center;
     padding: 1.8rem 1rem 0 1rem;
     line-height: 1.5rem; }
@@ -271,15 +271,29 @@ header {
   font-family: "Lobster", cursive;
   font-size: 2rem;
   padding: 1rem 0 2rem 0; }
+  @media (max-width: 736px) {
+    #section-txt-img-plainbg h2 {
+      padding: 5rem 0 2rem 0;
+      text-align: center; } }
+@media (max-width: 736px) {
+  #section-txt-img-plainbg p {
+    text-align: center; } }
 
 .section-txt-img-plainbg-img-1 {
   border-radius: .5rem;
-  margin-top: .5rem;
+  margin-top: 2rem;
   display: block;
   width: 95%; }
+  @media (max-width: 736px) {
+    .section-txt-img-plainbg-img-1 {
+      margin-left: 2.5%;
+      margin-top: .5rem; } }
 
 .section-txt-img-plainbg-content {
   padding-left: 1.5rem; }
+  @media (max-width: 736px) {
+    .section-txt-img-plainbg-content {
+      padding-right: 1.5rem; } }
 
 body {
   font-family: "Arimo", sans-serif;
@@ -288,9 +302,16 @@ body {
   color: #555555;
   letter-spacing: .15rem;
   background-color: whitesmoke; }
+  @media (max-width: 736px) {
+    body {
+      font-size: 0.75rem; } }
 
 .line-separator {
   height: 0;
   border-bottom: 0.12rem solid rgba(85, 85, 85, 0.5);
   margin-bottom: 1.4rem;
   width: 7.5rem; }
+  @media (max-width: 736px) {
+    .line-separator {
+      margin-left: auto;
+      margin-right: auto; } }

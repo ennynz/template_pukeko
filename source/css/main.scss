@@ -9,15 +9,23 @@
 
 body {
   font-family: $font-body;
-  font-size: $font-standard;
+  font-size: $font-small;
   line-height: 1.5rem;
   color: $color-dark;
   letter-spacing: .15rem;
   background-color: $color-light;
+  @include breakpoint($small-max) {
+    font-size: $font-xsmall;
+  }
+
 }
 .line-separator{
   height:0;
   border-bottom:.12rem solid rgba($color-dark, .5);
   margin-bottom: 1.4rem;
   width: 7.5rem;
+  @include breakpoint($small-max) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
