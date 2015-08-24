@@ -1,0 +1,45 @@
+header {
+  background: linear-gradient(45deg, rgba($color-main,1) 0%,rgba($color-secondary,1) 67%,rgba($color-secondary,1) 100%);
+  width: 100%;
+  height: 40rem;
+  position: relative;
+}
+.header-title {
+  position: absolute;
+  width: 100%;
+  margin-top: 7rem;
+  .header-logo{
+    color: $color-light;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    color: $color-light;
+    font-family: $font-heading;
+    font-size: $font-large;
+    text-align: center;
+  }
+  p {
+    font-family: $font-body;
+    color: $color-light;
+    font-size: $font-standard;
+    text-align: center;
+    padding-top: 1.8rem;
+  }
+}
+.header-action {
+  position: absolute;
+  width: 100%;
+  bottom: 7rem;
+}
+.button-header-action {
+  @include center(9.5rem)
+}
+.header-line {
+  @include column(1/2, $gutter: 0);
+  border-right: 0.18rem solid $color-light;
+  position: absolute;
+  bottom: 0rem;
+  height: 7rem;
+}

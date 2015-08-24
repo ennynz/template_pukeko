@@ -1,1 +1,1 @@
-$(document).ready(function(){$(function(){$("#includeNav").load("nav.html")})});
+$(document).ready(function(){$(function(){$("#includeNav").load("nav.html")}),$(function(){$("#includeHeader").load("html-components/header.html")})});
