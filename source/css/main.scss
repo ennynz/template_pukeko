@@ -1,10 +1,10 @@
 @import 'variables';
 @import 'jeet';
 // @include edit ();
-@import 'breakpoint/breakpoint';
-@import 'box';
+@import 'vendor/breakpoint/breakpoint';
+@import 'columns';
 @import 'header';
-@import 'one';
+@import 'section-txt-img-plainbg';
 @import 'responsive';
 
 body {
