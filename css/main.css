@@ -151,7 +151,7 @@
 .box {
   *zoom: 1;
   width: auto;
-  max-width: 1200px;
+  max-width: max-width 1280px;
   float: none;
   display: block;
   margin-right: auto;
@@ -181,7 +181,7 @@
     clear: both; }
   .box-col-2:last-child {
     margin-right: 0%; }
-  @media (max-width: 979px) {
+  @media (max-width: 736px) {
     .box-col-2 {
       display: block;
       clear: both;
@@ -206,11 +206,6 @@ header {
   position: absolute;
   width: 100%;
   margin-top: 7rem; }
-  .header-title .header-logo {
-    color: whitesmoke;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 1rem; }
   .header-title h1 {
     color: whitesmoke;
     font-family: "Lobster", cursive;
@@ -224,6 +219,12 @@ header {
     text-align: center;
     padding: 1.8rem 1rem 0 1rem;
     line-height: 1.5rem; }
+
+.header-logo {
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2rem; }
 
 .header-action {
   position: absolute;

@@ -17,9 +17,11 @@ $font-standard: 1.1rem;
 $font-small: .75rem;
 
 //SIZES
-$box-width: 1200px;
-$box-width-small: 980px;
-$width-small: max-width 979px;
+$xlarge: max-width 1680px;
+$large:  max-width 1280px;
+$medium: max-width 980px;
+$small:  max-width 736px;
+$xsmall: max-width 480px;
 
 //BUTTONS
 .button-1 {

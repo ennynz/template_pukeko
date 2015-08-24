@@ -8,12 +8,6 @@ header {
   position: absolute;
   width: 100%;
   margin-top: 7rem;
-  .header-logo{
-    color: $color-light;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 1rem;
-  }
   h1 {
     color: $color-light;
     font-family: $font-heading;
@@ -29,6 +23,12 @@ header {
     padding: 1.8rem 1rem 0 1rem;
     line-height: 1.5rem;
   }
+}
+.header-logo{
+  color: $color-light;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2rem;
 }
 .header-action {
   position: absolute;
