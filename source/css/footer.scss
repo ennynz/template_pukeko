@@ -1,0 +1,31 @@
+footer {
+  background: linear-gradient(45deg, rgba($color-main,1) 0%,rgba($color-secondary,1) 67%,rgba($color-secondary,1) 100%);
+  width: 100%;
+  height: 15rem;
+  position: relative;
+}
+.footer-container {
+  padding-top: 5rem;
+}
+.social-media {
+  color: rgba($color-light, .6);
+  transition: all 350ms ease;
+  cursor: pointer;
+    &:hover {
+      color: rgba($color-light, 1);
+    }
+}
+.copyright {
+  color: rgba($color-light, .6);
+  text-align: center;
+  padding-top: 1rem;
+  font-size: $font-xsmall;
+  a {
+    color: inherit;
+    transition: all 350ms ease;
+    cursor: pointer;
+      &:hover {
+        color: rgba($color-light, 1);
+      }
+  }
+}

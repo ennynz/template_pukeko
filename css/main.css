@@ -299,6 +299,22 @@
   .container-buttons:after {
     clear: both; }
 
+.container-social-media {
+  *zoom: 1;
+  width: auto;
+  max-width: 250px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .container-social-media:before, .container-social-media:after {
+    content: '';
+    display: table; }
+  .container-social-media:after {
+    clear: both; }
+
 .col-2-buttons {
   *zoom: 1;
   float: left;
@@ -316,6 +332,26 @@
     margin-right: 0%;
     float: right; }
   .col-2-buttons:nth-child(2n + 1) {
+    clear: both; }
+
+.col-4-buttons {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center; }
+  .col-4-buttons:before, .col-4-buttons:after {
+    content: '';
+    display: table; }
+  .col-4-buttons:after {
+    clear: both; }
+  .col-4-buttons:nth-child(4n) {
+    margin-right: 0%;
+    float: right; }
+  .col-4-buttons:nth-child(4n + 1) {
     clear: both; }
 
 header {
@@ -561,6 +597,37 @@ header {
           transition: all 350ms ease; }
   .button-fill:hover {
     color: whitesmoke; }
+
+footer {
+  background: -webkit-linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
+  background: linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
+  width: 100%;
+  height: 15rem;
+  position: relative; }
+
+.footer-container {
+  padding-top: 5rem; }
+
+.social-media {
+  color: rgba(245, 245, 245, 0.6);
+  -webkit-transition: all 350ms ease;
+          transition: all 350ms ease;
+  cursor: pointer; }
+  .social-media:hover {
+    color: whitesmoke; }
+
+.copyright {
+  color: rgba(245, 245, 245, 0.6);
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 0.75rem; }
+  .copyright a {
+    color: inherit;
+    -webkit-transition: all 350ms ease;
+            transition: all 350ms ease;
+    cursor: pointer; }
+    .copyright a:hover {
+      color: whitesmoke; }
 
 body {
   font-family: "Arimo", sans-serif;

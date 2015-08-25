@@ -30,6 +30,13 @@
 .container-buttons {
   @include center($xsmall);
 }
+.container-social-media {
+  @include center(250px);
+}
 .col-2-buttons {
   @include column(1/2, $cycle: 2);
+}
+.col-4-buttons {
+  @include column(1/4, $cycle: 4);
+  text-align: center;
 }
