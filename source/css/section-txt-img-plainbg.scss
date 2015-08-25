@@ -16,12 +16,13 @@
 }
 .section-txt-img-plainbg-img-1 {
   border-radius: .5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: block;
   width: 95%;
   @include breakpoint($small-max) {
     margin-left: 2.5%;
-    margin-top: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
   }
 }
 .section-txt-img-plainbg-content {
