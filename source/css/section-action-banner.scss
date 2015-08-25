@@ -1,0 +1,43 @@
+#section-action-banner {
+  h2 {
+    margin-top: 7.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: $color-light;
+  }
+  .line-separator {
+    border-bottom:.12rem solid rgba($color-light, .5);
+    margin: 0 auto;
+  }
+  p {
+    margin: 2rem 0;
+    text-align: center;
+    color: $color-light;
+  }
+}
+.section-action-banner-bg {
+  background-image: url(../img/img-2.jpg);
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: bottom;
+  width: 100%;
+  height: auto;
+  @include breakpoint($small-max) {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+  }
+}
+.section-action-banner-container {
+  padding-bottom: 7.5rem;
+}
+.button-action-2 {
+  @include center(10.5rem);
+}
+.button-fill {
+  background-color: $color-light;
+  color: $color-dark;
+  transition: all 350ms ease;
+    &:hover {
+      color: $color-light;
+    }
+}

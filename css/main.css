@@ -283,6 +283,41 @@
       .col-2-nested:nth-child(3n + 1) {
         clear: both; } }
 
+.container-buttons {
+  *zoom: 1;
+  width: auto;
+  max-width: 480px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .container-buttons:before, .container-buttons:after {
+    content: '';
+    display: table; }
+  .container-buttons:after {
+    clear: both; }
+
+.col-2-buttons {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .col-2-buttons:before, .col-2-buttons:after {
+    content: '';
+    display: table; }
+  .col-2-buttons:after {
+    clear: both; }
+  .col-2-buttons:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .col-2-buttons:nth-child(2n + 1) {
+    clear: both; }
+
 header {
   background: -webkit-linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
   background: linear-gradient(45deg, #0061d1 0%, #0092ba 67%, #0092ba 100%);
@@ -474,6 +509,58 @@ header {
   @media (max-width: 736px) {
     .button-action {
       margin-bottom: 4rem; } }
+
+#section-action-banner h2 {
+  margin-top: 7.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: whitesmoke; }
+#section-action-banner .line-separator {
+  border-bottom: 0.12rem solid rgba(245, 245, 245, 0.5);
+  margin: 0 auto; }
+#section-action-banner p {
+  margin: 2rem 0;
+  text-align: center;
+  color: whitesmoke; }
+
+.section-action-banner-bg {
+  background-image: url(../img/img-2.jpg);
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: bottom;
+  width: 100%;
+  height: auto; }
+  @media (max-width: 736px) {
+    .section-action-banner-bg {
+      background-attachment: scroll;
+      background-repeat: no-repeat; } }
+
+.section-action-banner-container {
+  padding-bottom: 7.5rem; }
+
+.button-action-2 {
+  *zoom: 1;
+  width: auto;
+  max-width: 10.5rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .button-action-2:before, .button-action-2:after {
+    content: '';
+    display: table; }
+  .button-action-2:after {
+    clear: both; }
+
+.button-fill {
+  background-color: whitesmoke;
+  color: #555555;
+  -webkit-transition: all 350ms ease;
+          transition: all 350ms ease; }
+  .button-fill:hover {
+    color: whitesmoke; }
 
 body {
   font-family: "Arimo", sans-serif;
