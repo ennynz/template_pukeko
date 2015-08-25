@@ -409,6 +409,7 @@ header {
   height: auto; }
   @media (max-width: 736px) {
     .section-txt-icons-picbg-img-bg {
+      background-attachment: scroll;
       background-repeat: no-repeat; } }
 
 .section-txt-icons-picbg-content {
