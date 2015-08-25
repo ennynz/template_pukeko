@@ -45,3 +45,17 @@ $xsmall-max: max-width 480px;
       background: rgba($color-light,0.2)
     }
 }
+.button-2 {
+  padding: .9rem .65rem .65rem .65rem;
+  border: .18rem solid $color-dark;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  color: $color-dark;
+  text-align: center;
+  text-decoration: none;
+  transition: all 350ms ease;
+  cursor: pointer;
+    &:hover {
+      background: rgba($color-dark,0.2)
+    }
+}
