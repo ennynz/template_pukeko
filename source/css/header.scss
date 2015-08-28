@@ -4,6 +4,17 @@ header {
   height: 40rem;
   position: relative;
 }
+.main-header {
+  padding-top: .5rem;
+  position: fixed;
+}
+.open-menu {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: $color-light;
+  text-shadow: 2px 2px 5px $color-dark;
+}
 .header-title {
   position: absolute;
   width: 100%;
